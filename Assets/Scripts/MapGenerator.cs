@@ -120,6 +120,8 @@ public class MapGenerator : MonoBehaviour {
             }
         }
 
+        textureData.UpdateMeshHeights (terrainMaterial, terrainData.minHieght, terrainData.maxHieght);
+
         return new MapData (noiseMap);
     }
 
