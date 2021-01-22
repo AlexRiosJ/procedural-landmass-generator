@@ -13,13 +13,40 @@ MonoBehaviour:
   m_Name: Default Texture
   m_EditorClassIdentifier: 
   autoUpdate: 1
-  baseColors:
-  - {r: 0.2415895, g: 0.26817238, b: 0.8396226, a: 0}
-  - {r: 0.45790315, g: 0.45790315, b: 0.9245283, a: 0}
-  - {r: 0.8490566, g: 0.7016209, b: 0.3244037, a: 0}
-  - {r: 0.062299743, g: 0.5283019, b: 0.07019887, a: 0}
-  baseStartHeights:
-  - 0
-  - 0.025
-  - 0.05
-  - 0.158
+  layers:
+  - texture: {fileID: 2800000, guid: c7ce04720a27e134c9a73047b5453f27, type: 3}
+    tint: {r: 0.13656995, g: 0.5494569, b: 0.9339623, a: 0}
+    tintStrength: 0.14
+    startHeight: 0
+    blendStrength: 0.056
+    textureScale: 2
+  - texture: {fileID: 2800000, guid: 649ff953e617b0d4a9ba3317d441a8b6, type: 3}
+    tint: {r: 0.8962264, g: 0.7787767, b: 0.37624598, a: 0}
+    tintStrength: 0.234
+    startHeight: 0.093
+    blendStrength: 0.056
+    textureScale: 2
+  - texture: {fileID: 2800000, guid: 166bd0f4f1aefbf479524a692d13a1d2, type: 3}
+    tint: {r: 0.38229725, g: 0.7075472, b: 0.25031152, a: 0}
+    tintStrength: 0
+    startHeight: 0.177
+    blendStrength: 0.187
+    textureScale: 2
+  - texture: {fileID: 2800000, guid: 4541a75b0bf30994f811d6dc24a79ef9, type: 3}
+    tint: {r: 0.6226415, g: 0.4595952, b: 0.30838376, a: 0}
+    tintStrength: 0.178
+    startHeight: 0.299
+    blendStrength: 0.131
+    textureScale: 4
+  - texture: {fileID: 2800000, guid: e0c423aa5ab12854392dbd8d08277327, type: 3}
+    tint: {r: 0.4528302, g: 0.29196477, b: 0.11747954, a: 0}
+    tintStrength: 0
+    startHeight: 0.523
+    blendStrength: 0.131
+    textureScale: 8
+  - texture: {fileID: 2800000, guid: a1d40e361390d0f45980ab2fa994b8b2, type: 3}
+    tint: {r: 0.8018868, g: 0.78297436, b: 0.78297436, a: 0}
+    tintStrength: 1
+    startHeight: 0.953
+    blendStrength: 0.524
+    textureScale: 2
