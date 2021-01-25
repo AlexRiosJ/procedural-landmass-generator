@@ -20,9 +20,9 @@ MonoBehaviour:
     persistance: 0.5
     lacunarity: 2
     seed: 0
-    offset: {x: 94.49, y: 0}
+    offset: {x: 0, y: 0}
   useFalloff: 0
-  heightMultiplier: 50
+  heightMultiplier: 30
   heightCurve:
     serializedVersion: 2
     m_Curve:
